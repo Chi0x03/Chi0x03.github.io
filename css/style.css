@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lexend&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Cabeçalho - início */
+
+.cabecalho {
+    background-color: #0e0e0e;
+    color: #ffffff;
+}
+
+.cabecalho ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+.cabecalho ul li {
+    display: inline;
+    float: right;
+}
+
+.cabecalho ul li a:first-child {
+    height: 80px;
+}
+
+.cabecalho ul li a {
+    display: block;
+    padding: 14px 16px;
+}
+
+.cabecalho ul li a:hover {
+    transition: .2s;
+    background-color: #132257;
+}
+/* Cabeçalho - fim */
+
+/* Corpo - início */
+
+/* Corpo 1 */
+.corpo-1 a {
+    text-align: center;
+}
+
+.corpo-1 img {
+    width: 100%;
+}
+/* Corpo 1 */
+
+/* Corpo 2 */
+.corpo-2 {
+    padding: 40px;
+}
+
+.corpo-2 h1 {
+    padding-bottom: 20px;
+    font-family: 'Archivo Black';
+    text-align: center;
+    font-size: 50px;
+    color: #132257;
+}
+
+.lista {
+    padding: 10px;
+    margin: auto;
+    width: 70%;
+    list-style: none;
+}
+
+.lista li {
+    display: inline-block;
+    margin: auto;
+    padding-right: 5px;
+}
+
+.lista li a {
+    text-decoration: none;
+    display: block;
+    background-color: #132257;
+    border-radius: 7px;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.lista li a:hover {
+    transition: .2s;
+    background-color: #00c090;
+    color: #132257;
+}
+
+.parcela {
+    color: #00c090;
+    float: right;
+}
+
+.lista li img {
+    width: 300px;
+}
+
+/* Corpo 2 */
+/* Corpo - fim */
+
+/* Rodapé - início */
+
+.rodape {
+    position: relative;
+    width: 100%;
+    display: block;
+    background-color: #0e0e0e;
+    padding: 10px;
+    color: #ffffff;
+    bottom: 0;
+    text-align: center;
+}
+
+/* Rodapé - fim */
+
+
+/* Carrinho */
+.carrinho {
+    padding: 30px;
+    width: 70%;
+    margin: auto;
+    color: #132257;
+}
+
+.lista-de-compras {
+    border: 2px solid #132257;
+    border-radius: 7px;
+    padding: 10px;
+    list-style: none;
+}
+
+.lista-de-compras li ul {
+    display: inline-block;
+    list-style: none;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.lista-de-compras li img {
+    width: 150px;
+}
+
+.confirmar-compra {
+    border: 2px solid #132257;
+    border-radius: 7px;
+    padding: 10px;
+    list-style: none;
+}
+
+.finalizar {
+    display: block;
+    text-align: center;
+    border-radius: 7px;
+    background-color: #132257;
+    color: #ffffff;
+    margin-top: 10px;
+    padding: 5px;
+    width: 100%;
+    text-decoration: none;
+}
+
+.finalizar:hover {
+    transition: .2s;
+    background-color: #00c090;
+    color: #132257;
+}
+
+/* Contato */
+.corpo-form {
+    padding: 20px;
+}
+
+.formulario {
+    font-size: larger;
+    width: 30%;
+    margin: auto;
+}
+
+fieldset {
+    padding: 10px;
+    border-radius: 7px;
+    margin: 30px;
+}
+
+input[type=submit] {
+    background-color: #132257;
+    color: #ffffff;
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+    width: 100%;
+}
+
+input[type=submit]:hover {
+    transition: .2s;
+    color: #132257;
+    background-color: #00c090;   
+}
+/* 
+// Empresa:
+d52e2d - vermelho
+091d3c - azul escuro
+056fc6 - azul claro
+e0e0e0 - bege
+808a9a - cinza claro
+485258 - cinza
+0e0e0e - preto
+
+// Copa:
+ffffff - branco
+fdd111 - amarelo
+00c090 - verde
+132257 - azul
+*/

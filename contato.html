@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/logo-tab.png">
+    <title>{Nome da empresa} | Loja de Esportes</title>
+</head>
+
+<body>
+    <div class="cabecalho">
+        <ul>
+            <li style="float: left;"><a href="#"><img src="img/logo.png"></a></li>
+            <li><a href="index.html"><img src="img/icons/home.svg"></a></li>
+            <li><a href="carrinho.html"><img src="img/icons/shopping_cart.svg"></a></li>
+        </ul>
+    </div>
+
+    <!-- Ler os requisitos! Mínimo de 8 campos! -->
+    <div class="corpo-form">
+        <div class="formulario">
+            <h1>Deixe aqui sua opnião sobre nossa loja:</h1>
+            <form>
+                <fieldset>
+                    <legend>Contato</legend>
+                    <label for="email">Email:</label> <br>
+                    <input type="email" name="email" id="email"> <br> <br>
+                    
+                    <label for="num">Número de telefone</label> <br>
+                    <input type="number" name="num" id="num"> <br> <br>
+                    
+                    <label for="estado">Seu estado:</label> <br>
+                    <input type="text" name="estado" id="estado"> <br> <br>
+                    
+                    <label for="cidade">Sua cidade:</label> <br>
+                    <input type="text" name="cidade" id="cidade"> <br> <br>
+                    
+                    <label for="sat">Seu nível de satisfação: </label> <br>
+                    <input type="range" min="1" max="5" name="sat" id="sat"> <br> <br>
+                    
+                    <label for="recomendaria">Você recomendaria a Urban Sport para alguém:</label> <br>
+                    <input type="radio" name="recomendaria" id="recomendaria"> Sim
+                    <input type="radio" name="recomendaria" id="recomendaria"> Não
+                    
+                    <br> <br>
+                    
+                    <label for="compraria">Em qual dessa lojas você compraria?</label> <br>
+                    <select name="compraria" id="compraria">
+                        <option value="netshoes">Netshoes</option>
+                        <option value="decathlon">Decathlon</option>
+                        <option value="centauro">Centauro</option>
+                    </select>
+                    
+                    <br> <br>
+                    
+                    <label for="msg">Deixe sua mensagem:</label> <br>
+                    
+                    <textarea name="msg" id="msg"></textarea> <br> <br>
+                    
+                    <input type="submit" id="enviar" value="Enviar">
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+    <div class="rodape">
+        <p>Equipe: Caio, Marcos César, Gabriel, Guilherme Cauã e Guilherme Freires</p>
+        <p>Turma: 1° ano D - Informática &copy;</p>
+    </div>
+</body>
+
+</html>
